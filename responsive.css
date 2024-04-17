@@ -1,0 +1,399 @@
+
+
+@media (max-width: 1100px) {
+    .hero-section {
+        margin: 25px 5rem;
+    }
+
+    .right .images img:nth-child(2) {
+        width: 100%; 
+    }
+
+    .social-media {
+        top: 40%;  
+        left: -80px;
+    }
+
+    .about .content .left .image img {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 1025px){
+    .content {
+        display: block; 
+    }
+
+     .content .left {
+        flex-basis: 100%;
+        margin-top: 150px; 
+    }
+    .content .right {
+        flex-basis: 100%;
+    } 
+}
+
+
+
+@media (max-width: 900px) {
+    .hero-section {
+        margin: 25px 3rem;
+    }
+
+    .right .images img:nth-child(2) {
+        width: 100%; 
+    }
+
+    .right .images .pattern {
+        right: 50px;  
+    }
+    .right .images img:nth-child(1) {
+        width: 80%; 
+        height: 80%;
+    }
+
+    .right {
+        flex-basis: 40%;
+    }
+
+    .content .left {
+        flex-basis: 60%;
+    
+    }
+    .right .images img:nth-child(2) {
+        width: 100%; 
+        right: 100px; 
+    }
+
+    .social-media .medai-icons a{
+        display: none; 
+    }
+
+    .about-section {
+        padding-top: 0;
+    }
+
+    .about .content .right .about-me h1 {
+        padding: 20px 0; 
+    }
+
+    .row .col {
+        flex-basis: 45%;
+    }
+
+    .right .contact i {
+        font-size: 3rem;
+        margin-right: 10px; 
+    }
+    
+}
+
+@media (max-width: 820px){
+    .about .content .left {
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav .links {
+        display: none;
+    }
+
+    .nav .times{
+        display: block;
+    }
+
+    .right .images img:nth-child(2) {
+        width: 100%; 
+    }
+
+    .content {
+        display: block; 
+        flex-wrap: wrap;
+        align-items: center; 
+        justify-content: flex-start;
+    }
+
+    .content .left {
+        margin-top: 100px;
+    }
+
+
+    .right .images img:nth-child(1) {
+        width: 80%; 
+        height: 100%;
+    }
+
+    .right .images img:nth-child(2) {
+        width: 80%; 
+        right: 150px; 
+    }
+
+    .about .content {
+        margin-top: 35rem;
+    }
+
+    .about .content .left .image img {
+        width: 40%;
+    }
+
+    .about .content .left .capture {
+        top: -1.7rem; 
+        right: 21.5rem;
+    }
+
+    .about .content .left {
+        padding-left: 30px;
+    }
+
+    .about .content .left .circle {
+        width: 130px; 
+        height: 130px; 
+        border: 15px solid var(--main);
+        top: -5rem; 
+        left: -3rem;
+    }
+
+    .about .content .left .about-information {
+        display: block;
+    }
+
+    .skills .skills-percentage {
+        flex-basis: 45%;
+        padding: 20px 0; 
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .right .images img:nth-child(2) {
+        width: 90%; 
+        right: 100px; 
+    }
+
+    .right .images img:nth-child(1) {
+        width: 70%; 
+        height: 80%;
+    }
+
+    .about .content .left .image img {
+        width: 30%;
+    }
+
+    .about .content .left .capture {
+        top: 10rem; 
+        right: 3rem;
+    }
+
+    .about .content .left .circle {
+        width: 150px; 
+        height: 150px; 
+        border: 10px solid var(--main);
+        top: -5rem; 
+        right: 0px; 
+    }
+
+    .about .content .left .about-information p {
+        font-size: 15px;
+    }
+
+    .about .content .left .about-information {
+        display: none;
+    }
+
+    .about .content .right .about-me .head {
+        display: none;
+    }
+
+    .about .content .left .head {
+        display: block;
+    }
+
+    .about .content .left .image img {
+        width: 70%; 
+    }
+
+    .contact-me .right h2 {
+        margin-top: 15px;
+    }
+
+    .right .contact i {
+        font-size: 2.8rem;
+        margin-right: 8px; 
+    }
+
+    
+.education-section .exp-content .left {
+    flex-basis: 100%;
+    margin-bottom: 15px;
+}
+.education-section .exp-content .right {
+    flex-basis: 100%;
+}
+}
+
+@media (max-width: 600px){
+
+    .about .content .left .circle {
+        width: 120px; 
+        height: 120px; 
+        border: 10px solid var(--main);
+        top: -3rem; 
+        left: -20px;
+    }
+
+    .about .content .left .about-information {
+        display: none;
+    }
+
+    .about .content .left {
+        margin-top: -120px;
+    }
+
+    .skills .skills-percentage {
+        flex-basis: 100%;
+        padding: 10px 0; 
+    }
+
+    .row .col {
+        flex-basis: 100%;
+    }
+
+    .contact-me .right {
+        flex-basis: 100%;
+    }
+
+    .footer-section {
+        padding-top: 3rem;
+    }
+
+    .row .foot-col {
+        flex-basis: 50%;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media  (max-width: 500px){
+    .content .left h1{
+        font-size: 2.9rem;
+    }
+
+    .about .content .left .about-information {
+        right: 0px;
+    }
+
+    .about .content .left .about-information p {
+        font-size: 13px;
+    }
+
+    .about .content .left .capture {
+        top: 5rem; 
+        right: 2rem;
+    }
+
+    .about .content .left {
+        margin-top: -200px;
+    }
+
+    .contact h3 i {
+        margin-right: 3px;
+    }
+
+    .contact h3 {
+        margin-right: 15px;
+    }
+
+    
+}
+
+
+@media (max-width: 414px){
+    .content .right {
+        margin-bottom: 0;
+    }
+
+    .about .content .left {
+        margin-top: -150px;
+    }
+}
+@media (max-width: 450px){
+
+    .nav .logo h1 {
+        font-size: 25px; 
+        font-weight: 600;
+    }
+
+    .hero-section {
+        margin: 15px 2rem;
+    }
+
+    .right .images img:nth-child(2) {
+        width: 100%; 
+        right: 70px; 
+    }
+
+    .right .images img:nth-child(1) {
+        width: 70%; 
+        height: 50%;
+    }
+
+    .content .left {
+        margin-bottom: 40px;
+    }
+
+    .content .left h1{
+        font-size: 2.9rem;
+    }
+
+    .content .left .position {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .about .content .left .circle {
+        width: 100px; 
+        height: 100px; 
+        border: 10px solid var(--main);
+        top: -2rem; 
+        left: -10px;
+    }
+
+    .about .content .left .capture {
+        top: 3rem; 
+        right: 2rem;
+    }
+
+    .row .foot-col {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .row .foot-col .contact a {
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 10px 16px; 
+        font-size: 14px;
+    }
+
+    .content .left h1{
+        margin-top: 8px; 
+        font-size: 2.5rem;
+    }
+
+    /* .right .contact i {
+        font-size: 1.8rem;
+        margin-right: 3px; 
+    } */
+}
+
+
+@media (max-width: 360px){
+    .about .content .left {
+        margin-top: -350px;
+    }
+}
